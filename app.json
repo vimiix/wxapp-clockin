@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "加班记录卡",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/record_default.png",
+        "selectedIconPath": "images/record_selected.png",
+        "text": "打卡"
+      },{
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/log_default.png",
+        "selectedIconPath": "images/log_selected.png",
+        "text": "历史"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

@@ -1,0 +1,39 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+  align-self: center;
+}
+.log-item {
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  margin: 10rpx;
+  border: solid 1px blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
+}
+
+.log-title{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.log-btn{
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.btn{
+  width: 50%;
+}
+
+.log-text{
+  position: absolute;
+  padding: 25%;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #cc0000;
+}

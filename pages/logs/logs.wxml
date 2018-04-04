@@ -1,0 +1,13 @@
+<!--logs.wxml-->
+<text wx:if="{{!userInfo}}" class='log-text'>请返回打卡页登录</text>
+<block wx:else>
+  <text class="log-title">打卡记录(由新到旧排列):</text>
+  <view class="container log-list">
+    <block wx:for="{{logs}}" wx:for-item="log">
+      <text class="log-item">第 {{count - index }} 次 - {{log}}</text>
+    </block>
+  </view>
+  <view class="log-btn">
+    <button class="weui-btn btn" type="primary" plain="true" bindtap="clearCache" style="font-size: 15px">清除历史</button>
+  </view>
+</block>
